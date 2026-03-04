@@ -1,0 +1,6 @@
+RESUMEN DE LA AUDITORÍA:
+====================
+Registros obtenidos desde la API: 166
+Registros almacenados en la base de datos: 166
+Fecha y hora de auditoría: 2026-03-03T20:33:47.023219
+Auditoría exitosa: Todos los registros de la API fueron almacenados correctamente en la base de datos.
