@@ -33,7 +33,7 @@ jobs:
 
       - name: Ejecutar el pipeline de ingestión
         run: |
-          jupyter nbconvert --to script src/ingestion.ipynb --output src/ingestion.py
+          jupyter nbconvert --to script src/ingestion.ipynb
           python src/ingestion.py
 
       - name: Subir Archivos Como Artefactos
