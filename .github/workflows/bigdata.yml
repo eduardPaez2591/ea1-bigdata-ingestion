@@ -29,12 +29,10 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          pip install nbconvert
 
       - name: Ejecutar el pipeline de ingestión
         run: |
-          jupyter nbconvert --to script src/ingestion.ipynb
-          python src/ingestion.py
+          python src/ingestion.ipynb
 
       - name: Subir Archivos Como Artefactos
         uses: actions/upload-artifact@v4
